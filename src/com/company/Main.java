@@ -12,8 +12,6 @@ public class Main
 
             led.turnOn();
             halogen.turnOn();
-            led.turnOff();
-            halogen.turnOff();
         }
         catch (ArithmeticException e){
             System.out.println("error");
