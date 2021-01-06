@@ -11,6 +11,7 @@ public class Sample
             isOn = true;
             System.out.println("Light on? " + isOn);
 
+
         }
 
         void turnOff()
