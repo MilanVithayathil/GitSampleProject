@@ -7,6 +7,7 @@ public class Consumption
     public Consumption(int energyLv)
     {
         this.energyLv = energyLv;
+        System.out.println("Milan!!!");
         System.out.println("___________");
     }
 }
