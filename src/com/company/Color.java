@@ -4,7 +4,9 @@ public class Color
 {
     private String kitchenLamp;
 
+
     public Color(String kitchenLamp) {
+
         this.kitchenLamp = kitchenLamp;
     }
 
@@ -17,5 +19,7 @@ public class Color
     public void setKitchenLamp(String kitchenLamp) {
         this.kitchenLamp = kitchenLamp;
     }
+
+
 }
 
