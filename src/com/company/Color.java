@@ -5,9 +5,10 @@ public class Color
     private String lampColor;
     private String kitchenLamp;
 
-    public Color(String lampColor)
+    public Color(String lampColor, String kitchenLamp)
     {
         this.lampColor = lampColor;
+        this.kitchenLamp = kitchenLamp;
     }
 
     public String getLampColor()
@@ -27,5 +28,7 @@ public class Color
     public void setKitchenLamp(String kitchenLamp) {
         this.kitchenLamp = kitchenLamp;
     }
+
+
 }
 
