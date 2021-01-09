@@ -8,5 +8,6 @@ public class Consumption
     {
         this.energyLv = energyLv;
         System.out.println("Milan!!!");
+        System.out.println("___________");
     }
 }
